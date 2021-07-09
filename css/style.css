@@ -1,0 +1,243 @@
+/*common start*/
+@font-face{
+	font-family: Ptsans-Regular;
+	src:url(../fonts/PT_Sans/PTSans-Regular.ttf);
+}
+@font-face{
+	font-family: Ptsans-Bold;
+	src:url(../fonts/PT_Sans/PTSans-Bold.ttf);
+}
+@font-face{
+	font-family: Helvetica-Font;
+	src:url(../fonts/Helvetica-Font/Helvetica-Bold.ttf);
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family:Ptsans-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #555555;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 50px 0;
+	background-color: #fcdb00;
+}
+.container{
+	margin: 0 auto;
+	width: 70%;
+	overflow: hidden;
+}
+
+.logo{
+	width: 18%;
+	float: left;
+	
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 50%;
+	float: right;
+   
+}
+.menu ul{
+	list-style: none;
+
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin: 0 46px;
+	font-family: Ptsans-Regular;
+	font-size: 22px;
+	font-weight: 500;
+	color: #010101;
+	text-decoration: none;
+	text-transform: capitalize;
+	display: inline-block;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	padding-bottom: 135px;
+	background-color: #fcdb00;
+}
+.b_content{
+	overflow: hidden;
+}
+.b_left{
+	margin-top: 50px;
+	width: 40%;
+	float: left;
+}
+.h_1{
+	font-family: Ptsans-Bold;
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+}
+.b_left h3{
+	font-family: Ptsans-Regular;
+	font-size: 20px;
+	font-weight: 400;
+	color: #313841;
+}
+.p_1{
+	font-family: Ptsans-Regular;
+	font-size: 14px;
+}
+
+.b_icon ul{
+	padding: 0; 
+}
+.b_icon ul li{
+	float: left;
+    list-style: none;
+    margin: 0 20px;
+}
+.b_icon ul:first-child li{
+	margin-left: 0;
+}
+.b_right{
+	margin-right: 35px;
+	width: 40%;
+	float: right;
+}
+
+.b_right img{
+	width: 100%;
+}
+/*banner end*/
+/*feature start*/
+
+.s_header{
+	padding: 60px 70px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+.s_header p{
+	font-family: Ptsans-Regular;
+	font-size: 20px;
+	color: #313841;
+	word-spacing: 2px;
+}
+.s_feature{
+	padding-top: 50px;
+    padding-bottom: 160px;
+	overflow: hidden;
+	
+}
+.sf_1{
+	width: 33%;
+	overflow: hidden;
+	float: left;
+
+}
+.img_1{
+	margin-left: 15px;
+	width: 15%;
+	float: left;
+
+}
+.feature_1{
+	width: 75%;
+	float: right;
+	
+}
+.feature_1 h2{
+	font-family: Ptsans-Regular;
+	font-size: 22px;
+	font-weight: 400;
+	color: #010101;
+}
+
+/*feature end*/
+/*footer start*/
+.footer_1{
+	background-color: #010101;
+}
+
+.f_1{
+	padding: 45px 190px;
+	text-align: center;
+	
+}
+.h_1{
+	color: #fcdb00;
+}
+.f_2{
+
+	padding: 30px;
+	text-align: center;
+}
+.f_2 form{
+	
+}
+.f_2 form input{
+	margin: 0 25px;
+	width: 580px;
+	height:56px;
+	border: none;
+	font-family: Ptsans-Regular;
+	color: #898989;
+}
+.f_2 button{
+	width: 130px;
+	height: 50px;
+	font-family: Ptsans-Bold;
+	font-size: 16px;
+	font-weight: 700;
+	color: #010101;
+	background-color: #fcdb00;
+	border: none;
+}
+.f_3{
+	
+}
+.f_3 ul{
+	margin: 80px 300px;
+	overflow: hidden;
+}
+.f_3 ul li{
+	margin: 0 15px;
+	list-style: none;
+    float: left;
+}
+
+
+.address{
+	overflow: hidden;
+}
+.contact{
+	margin: 50px 25px;
+	padding-bottom: 140px;
+	width: 14%;
+	float: left;
+	
+}
+.contact ul{
+	list-style: none;
+}
+.contact ul li{}
+.contact ul li a{
+	font-family: 'Ptsans-Regular';
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.contact ul li:first-child a{
+	margin-left: 0;
+}
+
+
+/*footer end*/
